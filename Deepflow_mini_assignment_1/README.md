@@ -1,46 +1,45 @@
-##  Mini Assignment 1 – Zomato EDA
+# Zomato Restaurant Data - Exploratory Data Analysis
 
-This project is a comprehensive **Exploratory Data Analysis (EDA)** of the **Zomato Restaurants Dataset**. The goal is to uncover meaningful insights about restaurant trends, cuisines, pricing, ratings, and location-based patterns using Python and visualization libraries such as `pandas`, `matplotlib`, and `seaborn`.
+This project is a comprehensive Exploratory Data Analysis (EDA) of Zomato's restaurant dataset. The objective is to extract meaningful insights about restaurant trends, cuisines, pricing, ratings, services, and geographic distribution.
 
----
+## Dataset Overview
 
-### Dataset Overview
-
-The dataset contains information about various restaurants listed on Zomato, including:
+The dataset contains information about restaurants listed on Zomato, including:
 
 - Restaurant names  
--  Location and city  
--  Cuisines served  
+- Location and city  
+- Cuisines served  
 - Online delivery availability  
--  Ratings and number of votes  
--  Average cost for two people  
--  Types of services (e.g., Dine-out, Delivery, etc.)
+- Ratings and votes  
+- Average cost for two  
+- Types of services (e.g., Dine-out, Delivery, etc.)
 
----
+## Tools and Technologies
 
-###  Data Preprocessing
+- Python  
+- pandas  
+- matplotlib  
+- seaborn  
 
-- Handled missing/null values  
-- Standardized inconsistent entries  
-- Removed irrelevant or duplicate data  
-- Converted currency and rating formats (if required)
+## Data Cleaning and Preprocessing
 
----
+- Handled missing and null values  
+- Fixed data inconsistencies in city names, cuisine listings, and service types  
+- Converted relevant columns to proper formats for analysis  
 
-###  Analysis Performed
+## Analyses Performed
 
--  Identified the most popular cuisines across regions  
--  Analyzed city-wise distribution of restaurants  
--  Explored trends in online delivery  
--  Examined the relationship between cost and ratings  
--  Investigated key features that influence restaurant success  
+- Identified the most popular cuisines  
+- Examined city-wise restaurant distribution  
+- Analyzed online delivery trends  
+- Studied the relationship between ratings and cost  
+- Explored which features correlate with highly-rated or successful restaurants  
 
----
+## Visualizations
 
-###  Visualizations
+Used various types of plots (bar plots, heatmaps, scatter plots, etc.) to represent trends and relationships in the data clearly and effectively.
 
-Various graphs and charts were used to extract and represent insights clearly:
+## Conclusion
 
-- Bar plots and pie charts for distribution analysis  
-- Heatmaps for correlation and missing values  
-- Scatter plots for relationship mapping (
+This EDA provides insights into customer preferences and restaurant characteristics on Zomato, which can help understand user behavior, optimize restaurant offerings, and support strategic decisions.
+
