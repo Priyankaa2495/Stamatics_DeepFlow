@@ -1,4 +1,5 @@
-This project is a comprehensive Exploratory Data Analysis (EDA) of Zomato's restaurant data. The goal was to uncover meaningful insights about restaurant trends, cuisines, pricing, ratings, and location-based patterns using Python, pandas, and visualizations—assisted by GPT for cleaning and insight generation.
+## Mini Assignment 1
+This project is a comprehensive Exploratory Data Analysis (EDA) of Zomato's restaurant data. The goal was to uncover meaningful insights about restaurant trends, cuisines, pricing, ratings, and location-based patterns using Python, pandas, and visualizations.
 
 The dataset used is the Zomato Restaurants dataset. It contains details such as:
 Restaurant names
@@ -15,7 +16,7 @@ Average cost for two
 
 Types of services (Dine-out, Delivery, etc.)
 
-Clean and preprocess the dataset (handle missing/null values, fix inconsistencies)
+Cleaned and preprocessed the dataset (handle missing/null values, fix inconsistencies)
 
 Analyze:
 Most popular cuisines
