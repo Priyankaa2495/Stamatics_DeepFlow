@@ -1,32 +1,46 @@
-## Mini Assignment 1
-This project is a comprehensive Exploratory Data Analysis (EDA) of Zomato's restaurant data. The goal was to uncover meaningful insights about restaurant trends, cuisines, pricing, ratings, and location-based patterns using Python, pandas, and visualizations.
+##  Mini Assignment 1 – Zomato EDA
 
-The dataset used is the Zomato Restaurants dataset. It contains details such as:
-Restaurant names
+This project is a comprehensive **Exploratory Data Analysis (EDA)** of the **Zomato Restaurants Dataset**. The goal is to uncover meaningful insights about restaurant trends, cuisines, pricing, ratings, and location-based patterns using Python and visualization libraries such as `pandas`, `matplotlib`, and `seaborn`.
 
-Location and city
+---
 
-Cuisines served
+### Dataset Overview
 
-Online delivery availability
+The dataset contains information about various restaurants listed on Zomato, including:
 
-Ratings and votes
+- Restaurant names  
+-  Location and city  
+-  Cuisines served  
+- Online delivery availability  
+-  Ratings and number of votes  
+-  Average cost for two people  
+-  Types of services (e.g., Dine-out, Delivery, etc.)
 
-Average cost for two
+---
 
-Types of services (Dine-out, Delivery, etc.)
+###  Data Preprocessing
 
-Cleaned and preprocessed the dataset (handle missing/null values, fix inconsistencies)
+- Handled missing/null values  
+- Standardized inconsistent entries  
+- Removed irrelevant or duplicate data  
+- Converted currency and rating formats (if required)
 
-Analyze:
-Most popular cuisines
+---
 
-City-wise restaurant distribution
+###  Analysis Performed
 
-Online delivery trends
+-  Identified the most popular cuisines across regions  
+-  Analyzed city-wise distribution of restaurants  
+-  Explored trends in online delivery  
+-  Examined the relationship between cost and ratings  
+-  Investigated key features that influence restaurant success  
 
-Ratings vs cost relationships
+---
 
-Which features affect a restaurant's success
+###  Visualizations
 
-Use visualizations to understand data patterns
+Various graphs and charts were used to extract and represent insights clearly:
+
+- Bar plots and pie charts for distribution analysis  
+- Heatmaps for correlation and missing values  
+- Scatter plots for relationship mapping (
