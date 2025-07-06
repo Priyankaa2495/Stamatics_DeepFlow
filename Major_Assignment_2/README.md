@@ -16,8 +16,8 @@
 - Dropout: 0.6
 
 ##  Performance
-- Final Validation Accuracy: **{val_acc:.4f}** 
-- Final Validation Loss: **{val_loss:.4f}** 
+- Final Validation Accuracy: **{val_acc:.4f}** 0.7311
+- Final Validation Loss: **{val_loss:.4f}** 0.9032
 
 ##  Files Included
 - `cnn_model.h5` - Trained model
